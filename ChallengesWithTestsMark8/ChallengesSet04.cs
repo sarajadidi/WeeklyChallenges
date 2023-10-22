@@ -92,23 +92,16 @@ namespace ChallengesWithTestsMark8
         public int Factorial(int number)
         {
             var fact = 1;
-            if(number < 0)
+            if (number < 0)
             {
                 throw new Exception();
             }
-            for(int i = number; i > 0; i--)
+            for (int i = number; i > 0; i--)
             {
-                fact *= 1;
+                fact *= i; // Multiply by i, not 1
             }
             return fact;
-
-
-
-            //if (number == 0)
-            //{
-            //    return 1;
-            //}
-            //return number * Factorial(number - 1);
         }
+
     }
 }
