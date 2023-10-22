@@ -16,10 +16,10 @@ namespace ChallengesWithTestsMark8.Tests
         public void AddEvenSubtractOdd(int[] numbers, int expected)
         {
             // Arrange
-            ChallengesSet04 challenger = new ChallengesSet04();
+            ChallengesSet04 ChallengesSet04 = new ChallengesSet04();
 
             // Act
-            int actual = challenger.AddEvenSubtractOdd(numbers);
+            int actual = ChallengesSet04.AddEvenSubtractOdd(numbers);
 
             // Assert
             Assert.Equal(expected, actual);
