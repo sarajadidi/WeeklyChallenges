@@ -94,7 +94,7 @@ namespace ChallengesWithTestsMark8
             var fact = 1;
             if (number < 0)
             {
-                throw new Exception();
+                throw new ArgumentOutOfRangeException();
             }
             for (int i = number; i > 0; i--)
             {
